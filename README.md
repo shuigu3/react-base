@@ -10,8 +10,7 @@
 - [絶対パスを用いて Import する](#絶対パスを用いて-import-する)
 - [Material-UI を導入する](#material-ui-を導入する)
 - [React Router を導入する](#react-router-を導入する)
-- [Redux を導入する](#redux-を導入する)
-- [参考ページ](#参考ページ)
+- [Todo](#todo)
 
 <!-- /code_chunk_output -->
 
@@ -67,4 +66,6 @@ npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
 npm install react-router-dom
 ```
 
-## 参考ページ
+## Todo
+
+- useDialog, useSnackbar を Context 化することで利用の利便性が上がる？（[参考サイト](https://devsakaso.com/react-custom-hook/)）
