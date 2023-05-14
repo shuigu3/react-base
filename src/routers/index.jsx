@@ -10,6 +10,10 @@ const index = () => {
       element: React.lazy(() => import("../pages/Home")),
     },
     {
+      path: "/verification",
+      element: React.lazy(() => import("../pages/Verification")),
+    },
+    {
       path: "/setting",
       element: React.lazy(() => import("../pages/Setting")),
     },
